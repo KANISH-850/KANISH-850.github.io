@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://KANISH-850.github.io",
   "scripts": {
-    "build": "cross-env NODE_ENV=production next build && next export",
+    "build": "cross-env NODE_ENV=production next build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d out",
     "dev": "next dev --turbopack -p 9002",
